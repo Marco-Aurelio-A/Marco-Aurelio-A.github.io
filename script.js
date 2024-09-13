@@ -1,4 +1,6 @@
 let texto_mostrar = document.querySelector("#texto_mostrar");
+let texto_add = document.querySelector("#texto_add");
+let texto_add_button = document.querySelector("#texto_add_bt")
 
 let cor = 0;
 
@@ -79,3 +81,14 @@ function Mudar_cor()
 }
 
 Mudar_cor();
+
+function Add_texto()
+{
+
+    texto_lista.push(texto_add.value);
+
+    texto_add.value = "";
+
+}
+
+texto_add_button.onclick = Add_texto;
