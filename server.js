@@ -12,3 +12,5 @@ app.get('/conteudo', (req, res) =>
     res.send("Deu bom!");
 
 })
+
+app.listen(URL("https://marco-aurelio-a.github.io"));
