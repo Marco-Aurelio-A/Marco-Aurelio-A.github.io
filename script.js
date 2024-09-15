@@ -4,7 +4,7 @@ let texto_add_button = document.querySelector("#texto_add_bt")
 
 let cor = 0;
 
-let texto_lista = ["Você é Otário", "Tu és Endeota", "ahjiwhdaoiwhi", "Fala galera beleza? Aqui é o Edu"];
+let texto_lista = ["Você é Otário", "Bruh?", "ahjiwhdaoiwhi", "Fala galera beleza? Aqui é o Edu"];
 let texto_lista_index = 0;
 
 let texto = [];
